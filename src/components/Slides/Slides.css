@@ -1,0 +1,29 @@
+.container-slides {
+    display: flex;
+    justify-content: center;
+
+    width: 1200px;
+    height: 526px;
+}
+
+.slide {
+    animation: slide-animation 3s;
+
+
+}
+
+@keyframes slide-animation {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+
+    }
+}
+
+@media (max-width: 430px) {
+    .slider {
+        display: none;
+    }
+}

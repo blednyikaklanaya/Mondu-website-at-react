@@ -1,0 +1,19 @@
+.section__features-card {
+    font-family: sf-pro;
+    
+    margin-top: 175px;
+}
+
+.container__faetures-card {
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+
+    align-items: center;
+}
+
+@media (max-width: 430px) {
+    .container__faetures-card {
+        gap: 45px;
+    }
+}

@@ -1,0 +1,56 @@
+.header-container {
+    font-family: sf-pro;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+
+    margin-left: 140px;
+}
+
+.header-link {
+    margin-left: 46px;
+}
+
+.dropDownArrow {
+    margin-left: 8px;
+}
+
+.log-button {
+    margin-left: 172px;
+}
+
+.header-button {
+    width: 126px;
+    height: 39px;
+    margin-left: 44px;
+
+    padding: 0;
+    border-radius: 30px;
+    border-color: transparent;
+
+    background: #06B3A8;
+    color: white;
+}
+
+@media (max-width: 430px) {
+    .header-container {
+        justify-content: space-between;
+    }
+    
+    .header-links, .log-button, .header-button {
+        display: none;
+    }
+}

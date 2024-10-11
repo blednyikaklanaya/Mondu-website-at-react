@@ -1,0 +1,30 @@
+.features-blocks {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+}
+
+.features-bloks__title {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    
+    margin: 0;
+}
+
+.features-bloks__text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+
+    margin: 0;
+
+}

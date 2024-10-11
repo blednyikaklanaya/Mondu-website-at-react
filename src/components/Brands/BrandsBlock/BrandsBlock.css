@@ -1,0 +1,43 @@
+.brands-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 30px;
+
+    width: 237px;
+    height: 230.25px;
+
+    background-color: white;
+}
+
+.brands-block__icon {
+    width: 36px;
+    height: 36px;
+}
+
+.brands-block__text-div {
+    margin-top: 18px;
+}
+
+.brands-block__title {
+    font-family: sf-pro;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.25px;
+    text-align: left;
+
+    color: #001E18;
+}
+
+.brands-block__text {
+    font-family: sf-pro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+
+    margin-top: 12px;
+
+    color: #001E18B2;
+}

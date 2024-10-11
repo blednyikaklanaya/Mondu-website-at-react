@@ -1,0 +1,38 @@
+.container-brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 72px;
+}
+
+.brands__title {
+    font-family: sf-pro;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+    margin: 0; 
+}
+
+.brands__blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+
+    margin-top: 28px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 430px) {
+    .brands__blocks {
+        flex-direction: column;
+        gap: 23px;
+    }
+    .brands__title {
+        width: 343px;
+    }
+}

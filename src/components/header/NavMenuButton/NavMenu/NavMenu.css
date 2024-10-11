@@ -1,0 +1,44 @@
+.nav-menu {
+    position: fixed;
+
+    top: 62px;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 1000;
+
+    background-color: white;
+    transition: opacity 0.3s ease;
+}
+
+.nav-menu__links {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+
+    margin-top: 84px;
+
+    font-family: sf-pro;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 23.87px;
+    text-align: center;
+    
+}
+
+.nav-menu__button {
+    margin-left: 36vw;
+    margin-top: 18px;
+
+    width: 126px;
+    height: 39px;
+
+    padding: 0;
+    border-radius: 30px;
+    border-color: transparent;
+
+    background: #06B3A8;
+    color: white;
+}

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: sf-pro;
+  src: url("./fonts/SFPRODISPLAYREGULAR.OTF");
+}
+/* fonts */
+
+body {
+  margin: 0;
+  background-color: #F8F9FA;
+
+  overflow-x: hidden;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+li, ul {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+}
+
+.hide {
+  opacity: 0.0;
+}
+/* style */
+
+@media (max-width: 430px) {
+  body {
+    overflow-x: hidden;
+  }
+}
